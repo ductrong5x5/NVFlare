@@ -17,7 +17,7 @@ from typing import List
 
 def has_nvidia_smi() -> bool:
     from shutil import which
-
+    print("this is where they check my gpu")
     return which("nvidia-smi") is not None
 
 
